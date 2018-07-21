@@ -1,0 +1,45 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "outDir": "build/dist",
+      "module": "esnext",
+      "target": "es5",
+      "lib": [
+        "es5",
+        "es6",
+        "es7",
+        "es2017",
+        "dom"
+      ],
+      "sourceMap": true,
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "jsx": "react",
+      "moduleResolution": "node",
+      "rootDir": ".",
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noImplicitAny": false,
+      "strictNullChecks": false,
+      "suppressImplicitAnyIndexErrors": true,
+      "noUnusedLocals": true,
+      "preserveConstEnums": true,
+      "declaration": false,
+      "experimentalDecorators": true
+    },
+    "exclude": [
+      "node_modules",
+      "build",
+      "scripts",
+      "acceptance-tests",
+      "webpack",
+      "jest",
+      "src/setupTests.ts",
+      "service-proxies",
+      "_scripts",
+      "config-overrides.js",
+      "service.extensions.ts",
+      "storybook-static"
+    ]
+  }
